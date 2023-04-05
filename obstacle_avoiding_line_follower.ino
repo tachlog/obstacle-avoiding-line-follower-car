@@ -102,11 +102,11 @@ void compareDistance(){
     if(distance_L > distance_R){
   turnLeft();
   delay(500);
-  forword();
+  forward();
   delay(600);
   turnRight();
   delay(500);
-  forword();
+  forward();
   delay(600);
   turnRight();
   delay(400);
@@ -114,11 +114,11 @@ void compareDistance(){
   else{
   turnRight();
   delay(500);
-  forword();
+  forward();
   delay(600);
   turnLeft();
   delay(500);
-  forword();
+  forward();
   delay(600);  
   turnLeft();
   delay(400);
